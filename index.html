@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Cascading Style Sheets - Tag selector </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div id="headerImgContainer">
+            <nav>
+            <a href="#projects" id="headerButton1" class="headerButton">Projects</a>
+            <a href="#about" id="headerButton2" class="headerButton">About</a>
+            <a href="#contact" id="headerButton3" class="headerButton">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="genericSection">
+        <h1>About</h1>
+        <img class="projectImg" src="profile.jpg" alt="profile photo">
+        <p style="font-family: 'Courier New', Courier, monospace; color: rgb(238, 238, 238)">Web Developer</p>
+    </section>
+
+    <section id="projects" class="genericSection">
+        <h1>Projects</h1>
+        <img class="projectImg" src="project1.jpg" alt="blackhole">
+        <p>this is a raymarcher that renders a black hole useing C++ and GLSL</p>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>email: ejw3@iastate.edu</p>
+    </section>
+    <footer>This is a footer</footer>
+</body>
+</html>
